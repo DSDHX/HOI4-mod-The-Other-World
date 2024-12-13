@@ -1,0 +1,1 @@
+MZZ = "countries/mozu.txt"#(游戏里显示的英文国名全称)

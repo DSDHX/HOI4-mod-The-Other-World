@@ -1,0 +1,63 @@
+characters = {
+	MZZ_geergong = {
+		name = MZZ_ailisi
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MZZ/MZZ_ailisi.png"
+				small="gfx/interface/ideas/MZZ_lingdaoren/MZZ_ailisismall.png"
+			}
+			
+		}
+		country_leader = {
+			ideology = fascism
+			traits = {
+				dictator#大独裁者
+		 }
+			expire = "1965.1.1"#(下位时间)
+			id=-1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = MZZ_geergong
+			traits = { prince_of_terror }
+			allowed = {
+				tag = MZZ
+			}
+			cost = 0
+		}
+		field_marshal = {
+			skill = 8
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+		}
+		traits = {
+			politically_connected 	
+		}
+	}
+	MZZ_chenchunxiao = {
+		name = MZZ_chenchunxiao
+		portraits={
+			army = {
+				large="gfx/leaders/MZZ/MZZ_chenchunxiao.png"
+				small="gfx/interface/ideas/MZZ_lingdaoren/MZZ_chenchunxiaosmall.png"
+			}
+		}
+		
+		corps_commander = {
+			traits = { 
+				
+			}
+	        skill = 8
+	        attack_skill = 8
+	        defense_skill = 4
+	        planning_skill = 4
+	        logistics_skill = 4
+			allowed = {
+				tag = MZZ
+			}
+			cost = 0
+		}
+	}
+	}

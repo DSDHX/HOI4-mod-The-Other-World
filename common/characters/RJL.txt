@@ -1,0 +1,63 @@
+characters = {
+	RJL_geergong = {
+		name = RJL_geergong
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/RJL/geergong.png"
+				small="gfx/interface/ideas/RJL_lingdaoren/geergongsmall.png"
+			}
+			
+		}
+		country_leader = {
+			ideology = nazism
+			traits = {
+				dictator#大独裁者
+		 }
+			expire = "1965.1.1"#(下位时间)
+			id=-1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = RJL_geergong
+			traits = { prince_of_terror }
+			allowed = {
+				tag = RJL
+			}
+			cost = 0
+		}
+		field_marshal = {
+			skill = 8
+			attack_skill = 5
+			defense_skill = 5
+			planning_skill = 5
+			logistics_skill = 5
+		}
+		traits = {
+			politically_connected 	
+		}
+	}
+	RJL_zalake = {
+		name = RJL_zalake
+		portraits={
+			army = {
+				large="gfx/leaders/RJL/zalake.png"
+				small="gfx/interface/ideas/RJL_lingdaoren/zalakesmall.png"
+			}
+		}
+		
+		corps_commander = {
+			traits = { 
+				
+			}
+	        skill = 8
+	        attack_skill = 8
+	        defense_skill = 4
+	        planning_skill = 4
+	        logistics_skill = 4
+			allowed = {
+				tag = RJL
+			}
+			cost = 0
+		}
+	}
+	}

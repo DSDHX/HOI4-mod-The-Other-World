@@ -1,0 +1,328 @@
+ideas = {
+	hidden_ideas = {
+		yixing0 = {
+			allowed_civil_war = {
+				always = yes
+			}
+			modifier = {
+				can_puppet = yes#是否可以傀儡
+				can_send_volunteers = no#是否可以送志愿军
+				puppet_cost_factor = -0.5#傀儡花费
+				can_create_collaboration_government = no#是否建立合作政府
+				rule = {
+					can_create_factions = yes#可以创建阵营
+				}
+				allowed_civil_war = {
+				
+					has_government = democratic
+					has_government = fascism
+					has_government = communism
+					has_government = neutrality
+					}
+			}
+	#		equipment_bonus = {
+	#			装备种类 = {
+	#				装备modifier
+	#				instant = yes
+	#			}
+	#		}
+	#		research_bonus = {
+	#			科研种类 = 数值
+	#		}
+		}
+	}
+	country = {
+		#侵略与征服
+		qinglueyuzhengfu = {
+			picture = qinglueyuzhengfu #在.gfx文件里的图片名（name那行）
+			allowed_civil_war = {
+				always = yes
+			}
+			#国家层面modifier
+			modifier = {
+				justify_war_goal_time = -0.80  #正当化理由时间
+				annex_cost_factor = -0.8
+				
+				justify_war_goal_when_in_major_war_time = -0.80#与主要国家开战减少时间
+				planning_speed = 0.59#计划速度修正
+			}
+			allowed_civil_war = {
+				
+				has_government = democratic
+				has_government = fascism
+				has_government = communism
+				has_government = neutrality
+				}
+		}
+
+		#异世界科研能力
+		yishijiekeyannengli = {
+			picture = yishijiekeyannengli #在.gfx文件里的图片名（name那行）
+			allowed_civil_war = {
+				always = yes
+			}
+			#国家层面modifier
+			modifier = {
+				research_speed_factor = 0.03#科研速度
+			}
+			allowed_civil_war = {
+				has_government = democratic
+				has_government = fascism
+				has_government = communism
+				has_government = neutrality
+				}
+		}
+
+		#异形国家（外来者国度）
+		yixing = {
+			picture = yixing #在.gfx文件里的图片名（name那行）
+			allowed_civil_war = {
+				always = yes
+			}
+			#国家层面modifier
+			modifier = {
+				supply_consumption_factor = 0.1#补给消耗
+				consumer_goods_factor = 0.05#生活消费品工厂系数百分比
+				army_morale_factor = 0.03#陆军师组织度恢复速率百分比
+				army_morale = 5#陆军师组织度恢复速率
+				army_strength_factor = 0.1#陆军HP
+			}
+			allowed_civil_war = {
+				
+				has_government = democratic
+				has_government = fascism
+				has_government = communism
+				has_government = neutrality
+				}
+		}
+
+		#转移的阵痛
+		zhuanyidezhentong = {
+			picture = yixing #在.gfx文件里的图片名（name那行）
+			allowed_civil_war = {
+				always = yes
+			}
+			#国家层面modifier
+			modifier = {
+				stability_factor = -0.3#稳定度
+				war_support_factor = -0.55#战争支持度
+				line_change_production_efficiency_factor = -0.55#生产效率
+				production_speed_buildings_factor = -0.45 #建造速度
+				research_speed_factor = -0.35#科研速度
+			}
+
+		}
+
+		#低缓治愈阵痛
+		dihuanzhiyuzhentong = {
+			picture = yixing #在.gfx文件里的图片名（name那行）
+			allowed_civil_war = {
+				always = yes
+			}
+			#国家层面modifier
+			modifier = {
+				stability_factor = -0.25#稳定度
+				war_support_factor = -0.45#战争支持度
+				#line_change_production_efficiency_factor = -0.55#生产效率保持
+				
+				production_speed_buildings_factor = -0.45 #建造速度
+				research_speed_factor = -0.35#科研速度
+			}
+
+		}
+
+		#界外者
+		jiewaizhe = {
+			picture = yixing #在.gfx文件里的图片名（name那行）
+			allowed_civil_war = {
+				always = yes
+			}
+			#国家层面modifier
+			modifier = {
+				improve_relations_maintain_cost_factor = 0.2
+			}
+		}
+		
+
+		#卢森堡参谋团
+		LUX_Staff_Department= {
+			picture = diplomatic_mission #在.gfx文件里的图片名（name那行）
+			allowed_civil_war = {
+				always = yes
+			}
+			#国家层面modifier
+			modifier = {
+				command_power_gain_mult = 1#指挥经验增长
+				experience_gain_army = 0.3#陆军经验增长  /日
+			}
+		}
+
+
+		#卢森堡外交团
+		LUX_Luxembourg_diplomatic_mission = {
+			picture = diplomatic_mission #在.gfx文件里的图片名（name那行）
+			allowed_civil_war = {
+				always = yes
+			}
+			#国家层面modifier
+			modifier = {
+				improve_relations_maintain_cost_factor = -0.1
+			}
+		}
+
+		#接纳法西斯分子
+		LUX_Accepting_fascist_elements = {
+			picture = GFX_focus_chi_mission_to_germany 
+			allowed_civil_war = {
+				always = no
+			}
+			#国家层面modifier
+			modifier = {
+				fascism_drift = 0.1#每日法西斯
+			}
+			allowed_civil_war = {
+				has_government = fascism
+				}
+		}
+
+		#接纳共产主义分子
+		LUX_Accepting_communism_elements = {
+			picture = GFX_focus_chi_mission_to_germany #在.gfx文件里的图片名（name那行）
+			allowed_civil_war = {
+				always = no
+			}
+			#国家层面modifier
+			modifier = {
+				communism_drift = 0.1#每日共产主义
+			}
+			allowed_civil_war = {
+				has_government = communism
+				}
+		}
+
+		#接纳中立主义分子nazism
+		LUX_Accepting_neutrality_elements = {
+			picture = GFX_focus_chi_mission_to_germany #在.gfx文件里的图片名（name那行）
+			allowed_civil_war = {
+				always = no
+			}
+			#国家层面modifier
+			modifier = {
+				neutrality_drift = 0.1#每日共产主义
+			}
+			allowed_civil_war = {
+				has_government = neutrality
+				}
+		}
+
+		#接纳民主分子
+		LUX_Accepting_democratic_elements = {
+			picture = GFX_focus_chi_mission_to_germany #在.gfx文件里的图片名（name那行）
+			allowed_civil_war = {
+				always = no
+			}
+			#国家层面modifier
+			modifier = {
+				democratic_drift = 0.1#每日民主
+			}
+			allowed_civil_war = {
+				has_government = democratic
+				}
+		}
+
+		#国外经济专家
+		LUX_Foreign_economic_experts = {
+			picture = yixing 
+			allowed_civil_war = {
+				always = yes
+			}
+			#国家层面modifier
+			modifier = {
+				production_factory_max_efficiency_factor = 0.25#生产效率上限
+				production_factory_efficiency_gain_factor = 0.1#生产效率增长
+				production_factory_start_efficiency_factor = 0.1#基础生产效率
+				stability_factor = -0.15#稳定度
+				production_speed_buildings_factor = 0.05#建造速度
+			}
+		}
+
+		lux_fortify_lands = {
+			picture = FRA_fortification_focus
+			
+			removal_cost = -1 
+			
+			modifier = {
+				production_speed_bunker_factor = 0.3 
+				production_speed_coastal_bunker_factor = 0.3 
+			}
+		}
+
+		#国外经济专家
+		LUX_Luxembourg_Economic_Expert = {
+			picture = yixing 
+			allowed_civil_war = {
+				always = yes
+			}
+			#国家层面modifier
+			modifier = {
+				#production_factory_max_efficiency_factor = 0.1#生产效率上限
+				line_change_production_efficiency_factor = 0.1#生产效率保持
+				#production_factory_efficiency_gain_factor = 0.1#生产效率增长
+				consumer_goods_factor = -0.2#生活消费品工厂系数百分比
+				production_factory_start_efficiency_factor = 0.15#基础生产效率
+				stability_factor = -0.05#稳定度
+				production_speed_buildings_factor = 0.25#建造速度
+			}
+		}
+
+		#初级基建发展
+		chujijijianfazhan = {
+			picture = yixing #在.gfx文件里的图片名（name那行）
+			allowed_civil_war = {
+				always = yes
+			}
+			#国家层面modifier
+			modifier = {
+				state_production_speed_buildings_factor = 0.1
+				production_speed_buildings_factor = 0.25
+			}
+		}
+
+	}
+		
+		
+	#high_command = {	
+	#	内阁名字 = {
+	#		picture = 在.gfx文件里的图片名（name那行）	
+	#		allowed = { 条件（仅在开局时检测一次，不满足条件则游戏全程不会出现）}
+	#		visible = {条件（随时检测，满足条件则显示）}
+	#		available = {条件（随时检测，满足条件则可以点击）}
+	#		modifier = {国家层面modifier}
+	#		traits = { 人物特质}
+	#		ai_will_do = {factor = 0}
+	#	}
+	#}
+	#政治顾问/
+	#陆军总司令/
+	#空军司令/
+	#海军司令/
+	#海军制造商/
+	#材料制造商/
+	#油罐制造商/
+	#飞机制造商/
+	#工业企业/
+	#理论家/
+	#political_advisor/
+	#army_chief/
+	#air_chief/
+	#navy_chief/
+	#naval_manufacturer/
+	#materiel_manufacturer/
+	#tank_manufacturer/
+	#aircraft_manufacturer/
+	#industrial_concern/
+	#theorist = {
+	#	都属于内阁，内容同上
+	#}
+
+}

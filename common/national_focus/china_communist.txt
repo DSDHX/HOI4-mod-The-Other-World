@@ -1,0 +1,380 @@
+focus_tree = {
+	id = china_communist
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+	default = no
+	focus = {
+		id = PRC_Vast_and_challenging_roads_ahead
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 5
+		y = 1
+
+	}
+	focus = {
+		id = PRC_Our_current_situation_and_task
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 14
+		y = 1
+
+	}
+	focus = {
+		id = PRC_Battlefield_yellow_flowers_are_particularly_fragrant
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Vast_and_challenging_roads_ahead
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = PRC_The_Red_Army_is_not_afraid_of_difficult_expeditions
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Battlefield_yellow_flowers_are_particularly_fragrant
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = PRC_The_tiger_and_dragon_are_victorious_today_and_the_earth_is_turned_upside_down_in_the_past_with_great_enthusiasm_and_generosity
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_The_Red_Army_is_not_afraid_of_difficult_expeditions
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = PRC_When_will_Changying_tie_the_Azure_Dragon_in_his_hands_today
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_The_tiger_and_dragon_are_victorious_today_and_the_earth_is_turned_upside_down_in_the_past_with_great_enthusiasm_and_generosity
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = PRC_To_eradicate_all_harmful_insects_and_become_invincible
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_When_will_Changying_tie_the_Azure_Dragon_in_his_hands_today
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = PRC_Unity_cannot_be_achieved,_the_red_flag_at_the_foot_of_the_mountain_is_in_chaos
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Vast_and_challenging_roads_ahead
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = PRC_Classmate_Cha_is_in_the_prime_of_his_youth
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Unity_cannot_be_achieved,_the_red_flag_at_the_foot_of_the_mountain_is_in_chaos
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Where_there_is_a_will,_there_is_a_way
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Classmate_Cha_is_in_the_prime_of_his_youth
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = PRC_Counting_the_wind_and_current_figures_let's_take_a_look_at_this_morning
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Where_there_is_a_will,_there_is_a_way
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = PRC_Under_the_wind_at_the_foot_of_the_mountain,_the_red_flag_is_displayed_like_a_painting
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Counting_the_wind_and_current_figures_let's_take_a_look_at_this_morning
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = PRC_Early_on,_there_were_already_strict_barriers_and_even_more_united_efforts
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Vast_and_challenging_roads_ahead
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = PRC_Let's_work_together_with_withered_trees_and_decaying_plants
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Early_on,_there_were_already_strict_barriers_and_even_more_united_efforts
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Let_the_wine_surge_and_the_emotions_surge_high
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Let's_work_together_with_withered_trees_and_decaying_plants
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = PRC_Ten_thousand_years_is_too_long,_seize_the_day_and_night
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Let_the_wine_surge_and_the_emotions_surge_high
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = PRC_the_country_is_so_rich_in_beauty
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Ten_thousand_years_is_too_long,_seize_the_day_and_night
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = PRC_The_tiger_and_dragon_are_victorious_today_and_the_earth_is_turned_upside_down_in_the_past_with_great_enthusiasm_and_generosity
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_the_country_is_so_rich_in_beauty
+		}
+		prerequisite = {
+			focus = PRC_Under_the_wind_at_the_foot_of_the_mountain,_the_red_flag_is_displayed_like_a_painting
+		}
+		prerequisite = {
+			focus = PRC_To_eradicate_all_harmful_insects_and_become_invincible
+		}
+		x = 5
+		y = 7
+
+	}
+	focus = {
+		id = PRC_Looking_towards_the_domestic_market
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Our_current_situation_and_task
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = PRC_Our_Party
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Looking_towards_the_domestic_market
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Enhance_our_strength
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Our_Party
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = PRC_For_the_sake_of_our_revolution
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Enhance_our_strength
+		}
+		x = 11
+		y = 5
+
+	}
+	focus = {
+		id = PRC_Our_united_front_work
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Looking_towards_the_domestic_market
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Looking_for_our_comrades
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Our_united_front_work
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = PRC_To_have_the_great_ambition_of_sacrifice,_dare_to_let_the_sun_and_moon_exchange_for_a_new_sky
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Looking_for_our_comrades
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = PRC_To_have_the_great_ambition_of_sacrifice,_dare_to_let_the_sun_and_moon_exchange_for_a_new_sky
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_The_tiger_and_dragon_are_victorious_today_and_the_earth_is_turned_upside_down_in_the_past_with_great_enthusiasm_and_generosity
+		}
+		x = 5
+		y = 8
+
+	}
+	focus = {
+		id = PRC_have_the_whole_world_in_view
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Our_current_situation_and_task
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = PRC_Counterattack_erroneous_viewpoints
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_have_the_whole_world_in_view
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Refuting_pessimistic_arguments
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Counterattack_erroneous_viewpoints
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = PRC_For_the_liberation_of_humanity
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Refuting_pessimistic_arguments
+		}
+		x = 16
+		y = 5
+
+	}
+	focus = {
+		id = PRC_Preparing_for_an_expanded_Politburo_meeting
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_To_have_the_great_ambition_of_sacrifice,_dare_to_let_the_sun_and_moon_exchange_for_a_new_sky
+		}
+		prerequisite = {
+			focus = PRC_For_the_liberation_of_humanity
+		}
+		prerequisite = {
+			focus = PRC_For_the_sake_of_our_revolution
+		}
+		x = 14
+		y = 6
+
+	}
+	focus = {
+		id = PRC_Our_route_and_policy
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Preparing_for_an_expanded_Politburo_meeting
+		}
+		x = 14
+		y = 7
+
+	}
+	focus = {
+		id = PRC_The_Revolution_of_Our_Times
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_Our_route_and_policy
+		}
+		x = 14
+		y = 8
+
+	}
+}
