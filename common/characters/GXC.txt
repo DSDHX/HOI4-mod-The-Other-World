@@ -28,6 +28,37 @@ characters={
 		#}
 	}
 
+	GXC_feng_baiju={
+		name=GXC_feng_baiju
+		portraits={
+			civilian={
+				large="gfx/leaders/GXC/GXC_feng_baiju.png"
+				small="gfx/leaders/GXC_lingdaoren/GXC_feng_baiju_small.png"
+			}
+			army={
+				large="gfx/leaders/GXC/GXC_feng_baiju.png"
+				small="gfx/leaders/GXC_lingdaoren/GXC_feng_baiju_small.png"
+			}
+		}
+		#advisor={
+		#	slot = political_advisor
+		#	idea_token = GXC_feng_baiju
+		#	allowed  = {
+		#		original_tag  = GXC
+		#	}
+		#	traits  = {
+		#		prince_of_terror 
+		#	}
+		#}
+
+		country_leader={
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+
 	GXC_chen_jitang={
 		name=GXC_chen_jitang
 		portraits={
@@ -84,7 +115,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=leninism
+			ideology=communism
 			traits={ dealbroker }
 			expire="1948.1.1.12"
 			id=-1

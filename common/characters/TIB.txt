@@ -3,11 +3,11 @@ characters={
 		name="TIB_danzengjiacuo"
 		portraits={
 			civilian={
-				large="gfx/leaders/TIN/TIB_danzengjiacuo.png"
+				large="gfx/leaders/TIB/TIB_danzengjiacuo.png"
 			}
 		}
 		country_leader={
-			ideology=neutrality
+			ideology=despotism
 			expire="1965.1.1.1"
 			id=-1
 		}

@@ -1,0 +1,32 @@
+characters={
+	GMH_chen_yaozu={
+		name=GMH_chen_yaozu
+		portraits={
+			civilian={
+				large="gfx/leaders/GMH/GMH_emo4.png"
+				small="gfx/leaders/GMH/GMH_emo4_small.png"
+			}
+			army={
+				large="gfx/leaders/GMH/GMH_emo4.png"
+				small="gfx/leaders/GMH/GMH_emo4_small.png"
+			}
+			
+		}
+		field_marshal={
+			traits={ trait_cautious politically_connected defensive_doctrine }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits={ cornered_fox }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	
+}
